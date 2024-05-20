@@ -1,0 +1,5 @@
+tabela = ('athetico-pr', 'bahia', 'flamengo', 'botafogo', 'são paulo', 'cruzeiro', 'atletico-mg', 'bragantino', 'palmeiras', 'internacional', 'fortaleza', 'gremio', 'vasco', 'criciuma', 'juventude', 'corinthians', 'fluminense', 'ec vitoria', 'atlético-go', 'cuiaba')
+print(tabela[:5])
+print(tabela[-4:])
+print(sorted(tabela))
+print(tabela.index('fortaleza')+1)
