@@ -8,7 +8,7 @@ while c == True:
     else:
         print('Valor Duplicado! Numero nao adicionado!')
     b= input('Quer continuar? [s/n] ')
-    if b == 's':
+    if b in 'Ss':
         c = True
     else:
         c = False
