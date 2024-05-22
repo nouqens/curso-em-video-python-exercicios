@@ -6,7 +6,7 @@ while c == True:
         l.append(a)
         print('Valor adicionado com sucesso!')
     else:
-        print('Valor Duplicado! Numero nao adicionado!')
+        print('Número Duplicado! Valor não adicionado!')
     b= input('Quer continuar? [s/n] ')
     if b in 'Ss':
         c = True
