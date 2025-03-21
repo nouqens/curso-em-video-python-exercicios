@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Completo e Complexo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Minha Empresa</h1>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a>
+                <ul>
+                    <li><a href="#dev_web">web</a></li>
+                    <li><a href="#design">design</a></li>
+                    <li><a href="#consultoria">consultoria</a></li>
+                </ul>
+                </li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <section id="home" class="hero">
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>Oferecemos soluções inovadoras para o seu negócio.</p>
+        <a href="#about" class="btn">Saiba Mais</a>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa focada em fornecer soluções de alta qualidade para nossos clientes. Nosso time é especializado em desenvolvimento web, design e muito mais.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="ceo.jpg" alt="Membro 1">
+                <h3>Sensei-senpai</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="dev.jpg" alt="Membro 2">
+                <h3>Beauty Kohai</h3>
+                <p>Desenvolvedora</p>
+            </div>
+            <div class="team-member">
+                <img src="desginerl.jpg" alt="Membro 3">
+                <h3>Mid-kun</h3>
+                <p>Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service"  id="dev_web">
+            <h3><a href="dev_web.html" id="linkar">Desenvolvimento Web</a></h3>
+            <p>Desenvolvemos websites modernos e responsivos para sua empresa.</p>
+        </div>
+        <div class="service" id="design">
+            <h3><a href="design.html" id="linkar">Design Gráfico</a></h3>
+            <p>Criamos designs inovadores e atraentes para o seu negócio.</p>
+        </div>
+        <div class="service" id="consultoria">
+            <h3><a href="consult.html" id="linkar">Consultoria</a></h3>
+            <p>Oferecemos consultoria estratégica para impulsionar seu crescimento.</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <h2>Entre em Contato</h2>
+        <form action="#">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Minha Empresa - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
